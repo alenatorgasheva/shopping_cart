@@ -1,0 +1,6 @@
+code;name;count;price
+4607051158306;Curtis "Isabella Grape" black flavoured tea, 20 pyramids;1;93.00
+4604075003131;Mayonnaise 67% "Mr.Ricco" On quail egg Organic 400ml;1;47.96
+3083680002875;Bonduelle Sweet Corn, 340 g;1;99.00
+4810168001889;Crab sticks "Santa Bremor", 200 g;3;77.97
+5000159428194;Chocolate Multipack Twix, 202 g;2;95.00
