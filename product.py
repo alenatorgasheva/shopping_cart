@@ -46,12 +46,3 @@ class Product:
     def article(self):
         """Getting product article"""
         return self.__article
-
-    def get_info(self):
-        """Getting information about product"""
-        s = 'Наименование:         {}\n'.format(self.name)
-        s += 'Страна-производитель: {}\n'.format(self.__country)
-        s += 'Код производителя:    {}\n'.format(self.__mfg_code)
-        s += 'Контрольная цифра:    {}\n'.format(self.__check_digit)
-        s += 'Цена:                 {:.02f} р.'.format(self.__price)
-        print(s)

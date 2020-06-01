@@ -19,7 +19,7 @@ class Cart:
                 s += prod.__str__() + '\n'
             s += '|' + '-' * 122 + '|\n'
             s += '|{:>89} | {:<30}|'.format('Общая стоимость', self.cost) + '\n'
-            s += '+' + '-' * 122 + '+\n'
+            s += '+' + '-' * 122 + '+'
         return s
 
     def add_product(self, product):
@@ -33,3 +33,5 @@ class Cart:
             if prod.article == product_article:
                 self.shopping_list.remove(prod)
                 self.cost -= prod.count * prod.price
+                return False
+        return True
